@@ -62,9 +62,8 @@ Cria uma nova categoria com os dados enivados no corpo da requisição
 ```js
 
 {
-        "nome": "Alimentação",
-        "icone" : "fast-food"
-
+    "nome": "Alimentação",
+    "icone" : "fast-food"
 }
 
 ```
@@ -75,9 +74,9 @@ Cria uma nova categoria com os dados enivados no corpo da requisição
 ```js
 
 {
-        "id": 1,
-        "nome": "Alimentação",
-        "icone" : "fast-food"
+    "id": 1,
+    "nome": "Alimentação",
+    "icone" : "fast-food"
 
 }
 
@@ -104,9 +103,9 @@ Retorna os detalhes da categoria com o `id` informado como parâmetro path
 ```js
 // requisição para /categoria/1
 {
-        "id": 1,
-        "nome": "Alimentação",
-        "icone" : "fast-food"
+    "id": 1,
+    "nome": "Alimentação",
+    "icone" : "fast-food"
 
 }
 
@@ -154,8 +153,8 @@ Altera os dados da categoria especificada no `id` utilizando as informações en
 ```js
 
 {
-        "nome": "Alimentação",
-        "icone" : "fast-food"
+    "nome": "Alimentação",
+    "icone" : "fast-food"
 
 }
 
@@ -165,9 +164,9 @@ Altera os dados da categoria especificada no `id` utilizando as informações en
 ```js
 
 {
-        "id": 1,
-        "nome": "Alimentação",
-        "icone" : "fast-food"
+    "id": 1,
+    "nome": "Alimentação",
+    "icone" : "fast-food"
 
 }
 
