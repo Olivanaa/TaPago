@@ -17,9 +17,9 @@ import java.util.Random;
 
 // record é imutavel, não tem sets
 
-public record Categoria(long id, String nome, String icone) {
-    public Categoria(long id, String nome, String icone){ //sobreescrevendo o construtor do record
-        this.id = Math.abs(new Random().nextLong()) ;
+public record Categoria(Long id, String nome, String icone) {
+    public Categoria(Long id, String nome, String icone){ //sobreescrevendo o construtor do record
+        this.id = (id == null )? Math.abs(new Random().nextLong()) : id;
         this.nome = nome;
         this.icone = icone;
     }
